@@ -1,0 +1,20 @@
+{
+    "name": "thunderbirddeveloper/snakecharmer",
+    "description": "SnakeHandler is a PHP package designed to manipulate and execute Python scripts from within PHP. The package allows you to execute Python scripts, process and manage the results.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damian Łukasik Developer",
+            "email": "damian.lukasik@mail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ThunderbirdDeveloper\\Bifrost\\SnakeCharmer\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}

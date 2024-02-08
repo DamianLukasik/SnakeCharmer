@@ -24,7 +24,8 @@ Here's a basic example of how to use Snake Charmer:
 ```php
 <?php
 
-require 'vendor/autoload.php'; 
+require 'vendor/autoload.php';
+//or require_once '../vendor/thunderbirddeveloper/snakecharmer/src/charmers/SnakeCharmer.php';
 
 use ThunderbirdDeveloper\Bifrost\SnakeCharmer;
 

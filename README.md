@@ -33,7 +33,7 @@ use ThunderbirdDeveloper\Bifrost\SnakeCharmer;
 $snakeCharmer = new SnakeCharmer();
 
 // Set the script file
-$snakeCharmer->setScripts('example/script.py');
+$snakeCharmer->setScripts('example/helloworld.py');
 
 // Run the script
 $snakeCharmer->run();

@@ -40,6 +40,16 @@ class SnakeCharmer {
     }
 
     /**
+     * Set path.
+     *
+     * @param string $path Path to the Python script file directory.
+     * @return void
+     */
+    function setPath($path) {
+        $this->path = $path;
+    }
+
+    /**
      * Clears the list of script files.
      *
      * @return void

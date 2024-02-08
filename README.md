@@ -14,7 +14,7 @@ Snake Charmer is a simple PHP class designed to execute Python scripts convenien
 You can install Snake Charmer via Composer. Run the following command in your terminal:
 
 ```bash
-composer require thunderbirddeveloper/bifrost/snakecharmer
+composer require thunderbirddeveloper/snakecharmer
 ```
 
 ## Usage
@@ -24,7 +24,8 @@ Here's a basic example of how to use Snake Charmer:
 ```php
 <?php
 
-require 'vendor/autoload.php'; 
+require 'vendor/autoload.php';
+//or require_once '../vendor/thunderbirddeveloper/snakecharmer/src/charmers/SnakeCharmer.php';
 
 use ThunderbirdDeveloper\Bifrost\SnakeCharmer;
 
